@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>🔥 Betting Game 🔥</h1>
+    <p id="timer">Loading countdown...</p>
+    <p id="balance">Balance: KES 1000</p>
+
+    <div class="boxes">
+        <div class="box" data-box="1">1</div>
+        <div class="box" data-box="2">2</div>
+        <div class="box" data-box="3">3</div>
+        <div class="box" data-box="4">4</div>
+        <div class="box" data-box="5">5</div>
+    </div>
+
+    <input type="number" id="betAmount" placeholder="Enter bet amount" min="1">
+    <br>
+    <button id="placeBet">Place Bet</button>
+
+    <p id="message"></p>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
